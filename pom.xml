@@ -14,9 +14,12 @@
 	<name>SpringBootStore</name>
 	<description>Mobile project for Spring Boot</description>
 	<properties>
+		<sonar.projectKey>duongasinma_MobileSpring</sonar.projectKey>
+  		<sonar.organization>duongasinma</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<java.version>11</java.version>
-	 <maven.compiler.source>1.8</maven.compiler.source>
-	 <maven.compiler.target>1.8</maven.compiler.target>
+	 	<maven.compiler.source>1.8</maven.compiler.source>
+	 	<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
